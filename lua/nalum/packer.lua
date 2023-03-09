@@ -36,6 +36,7 @@ return require('packer').startup(function(use)
 	use 'habamax/vim-godot'
 	use 'tpope/vim-markdown'
 	use 'jjo/vim-cue'
+	use 'rust-lang/rust.vim'
 
 	-- LSP Related
 	use {
