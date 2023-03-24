@@ -110,6 +110,7 @@ return require('packer').startup(function(use)
 	-- General
 	use 'tpope/vim-surround'
 	use 'mbbill/undotree'
+	use 'github/copilot.vim'
 
 	if packer_bootstrap then
 		require('packer').sync()
