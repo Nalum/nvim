@@ -99,6 +99,13 @@ return require('packer').startup(function(use)
 	}
 	use 'theprimeagen/harpoon'
 	use 'tpope/vim-fugitive'
+	use {
+		"folke/todo-comments.nvim",
+		require = "nvim-lua/plenary.nvim",
+		config = function()
+			require("todo-comments").setup {}
+		end
+	}
 
 	-- Git plugins
 	use 'nvim-tree/nvim-tree.lua'
